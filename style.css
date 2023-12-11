@@ -1,0 +1,53 @@
+.p1 {
+  border: 5px solid red;
+  border-radius: 25px;
+}
+#p2 {
+  border: 10px dotted blue;
+  border-radius: 15px;
+}
+a {
+  color: red;
+  text-decoration: none;
+  background-color: green;
+  font-size: 50px;
+  padding: 5px 15px;
+  border: 5px solid black;
+}
+a:hover {
+  color: white;
+  background-color: black;
+}
+a:active {
+  color: yellow;
+}
+a:visited {
+  color: tomato;
+  background-color: black;
+}
+ul {
+  /list-style-image: url(cod.jpg);
+    //list-style: decimal-leading-zero;
+  //list-style-position: outside;
+  //list-style: square inside url(cod.jpg);
+  list-style: decimal-leading-zero outside;
+}
+table, th, td {
+    border: 5px solid tomato;
+    border-collapse: collapse;
+    text-align: left;
+}
+table{
+    width: 100%;
+}
+th, td{
+    color: red;
+}
+h1{
+    display: inline-block;
+    
+}
+/* span{
+    text-align: center;
+    display: block;
+} */
